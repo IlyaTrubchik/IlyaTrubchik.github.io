@@ -111,11 +111,12 @@ body{
     height:calc(var(--elem-size));
 }
 .icon{
-    width:15%;
+    width:calc(var(--elem-size)*0.3);
     display: flex;
     flex-flow:row;
     justify-content: center;
     height: 95%;
+    margin-left:calc(var(--elem-size)*0.5);
 }
 .navigation-container{
     display: flex;

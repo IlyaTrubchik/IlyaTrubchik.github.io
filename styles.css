@@ -110,11 +110,12 @@ body{
     height:calc(var(--elem-size));
 }
 .icon{
-    width:15%;
+    width:calc(var(--elem-size)*0.3);
     display: flex;
     flex-flow:row;
     justify-content: center;
     height: 95%;
+    margin-left: calc(var(--elem-size)*0.5);
 }
 .navigation-container{
     display: flex;
@@ -228,7 +229,7 @@ body{
     margin-top:0;
 }
 .readMoreSection p{
-    font-size:18px;
+    font-size:calc(var(--text-size)*0.9);
 }
 .readMoreSection button{
     font-size:calc(var(--text-size)*0.85);
@@ -331,7 +332,6 @@ body{
     margin:calc(var(--elem-size)*0.2);
 }
 .recipe-container{
-    background-image: url(photo_2023-02-25_21-43-16.jpg);
     width:calc(var(--elem-size)*2);
     height: calc(var(--elem-size)*2);
     position: relative;
