@@ -152,7 +152,7 @@ body{
     margin: 0;
 }
 .navigation div:hover{
-    border-bottom: calc(var(--elem-size)*0.05) px solid rgb(240, 158, 36);
+    border-bottom: 5px solid rgb(240, 158, 36);
 }
 .navigation div:hover i{
     color:rgb(240, 158, 36);
@@ -170,7 +170,7 @@ body{
     justify-content: center;
     text-align: center;
     height: 100%;
-    width:100%;
+    width:85%;
     margin:0;
     border-radius: calc(var(--elem-size)*0.2);
     border:0;
@@ -200,20 +200,9 @@ body{
     height:40%;
     width:70%;
 }
-.contacts-container i{
-    color:gray;
-    text-align: center;
-}
-.contact-icons{
-    display: flex;
-    flex-flow:row;
-    justify-content: space-between;
-    width:25%;
-    padding-top:5%;
-}
 .readMoreSection{
     height:calc(var(--elem-size)*5);
-    background-image: url(mainfood.jpg);
+    background-image: url(FoodImg/mainfood.jpg);
     display: flex;
     flex-flow:column;
     justify-content: end;
@@ -450,4 +439,310 @@ body{
     padding:0;
     margin-top:0;
 
+}
+.menuMain{
+    height:calc(var(--elem-size)*5);
+    background-image: url(/FoodImg/contactUs2.jpg);
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-size: calc(var(--text-size)*2.25);;
+}
+.Menu{
+    height: auto;
+    margin-top: calc(var(--elem-size)*0.2);
+    margin-bottom: calc(var(--elem-size)*0.2);
+}
+.Menu h2{
+    margin-left: 30%;;
+    margin-bottom: 2px;
+    font-size: calc(var(--text-size)*1.75);
+    font-weight: 700;
+}
+.Menu-container{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+}
+.left-side{
+    width:20%;
+    height:calc(var(--elem-size)*14);
+    border-radius: calc(var(--elem-size)*0.3);
+    border:solid 2px rgb(240, 158, 36); ;;
+    display: flex;
+    flex-flow:column;
+    text-align: left;
+    margin-top: calc(var(--elem-size)*0.3);
+}
+.left-side h3{
+    font-size: calc(var(--text-size)*1.3);
+    padding: calc(var(--elem-size)*0.2);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.propertyItem{
+    display: flex;
+    flex-flow:column;
+}
+.CheckBox{
+    display: flex;
+    flex-flow:row;
+    padding-left:calc(var(--elem-size)*0.2);
+    align-items: center;
+}
+.CheckBox p{
+    font-size: calc(var(--text-size));
+    font-weight: 500;
+    margin-left:5px;
+}
+.CheckBox input{
+    width: calc(var(--elem-size)*0.2);
+    height:  calc(var(--elem-size)*0.2);
+}
+.right-side{
+    width:70%;
+    display: flex;
+    flex-flow: column;
+}
+.menuItems{
+    display: flex;
+    flex-flow:wrap;
+    justify-content: space-around;
+}
+.menuItem{
+    width:42%;
+    padding: calc(var(--elem-size)*0.3);;
+    border-radius: calc(var(--elem-size)*0.3);
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    height:calc(var(--elem-size)*2);
+    margin-top:calc(var(--elem-size)*0.3);
+    margin-bottom:calc(var(--elem-size)*0.2);
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;;
+    background-color:rgba(253, 198, 117, 0.185); ;
+}
+.menuItem-img{
+    display: flex;
+    border-radius: 50%;
+    width: calc(var(--elem-size)*1.3);
+    height: calc(var(--elem-size)*1.3);
+}
+.menuItem-text{
+    display: flex;
+    flex-flow:column;
+    width: calc(96% - (var(--elem-size)*1.3));
+}
+.menuItem-text p{
+    font-size: calc(var(--text-size)*1.25);
+    color:gray;
+    font-weight: 500;
+}
+.cost{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-between;
+}
+.cost span{
+    font-size: calc(var(--text-size)*1.5);
+    font-weight: 700;
+    color:rgb(47, 201, 78);
+}
+.cost h3{
+    font-size:calc(var(--text-size)*1.5);
+    font-weight: 700;
+    margin: 0px;;
+}
+.addbtn{
+    border-radius: calc(var(--elem-size)*0.2);
+    border: none;
+    color: white;
+    width:50%;
+    background-color: rgb(240, 158, 36);
+    text-align: center;
+    font-weight: 700;
+    padding: calc(var(--elem-size)*0.1);
+    font-size: calc(var(--text-size)*0.9);
+    transition: 0.5s linear;
+}
+.addbtn:hover{
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    color:rgb(240, 158, 36);
+    background-color: white;
+}
+.propertyBtn{
+    border-radius: calc(var(--elem-size)*0.2);
+    border: none;
+    color: white;
+    width:50%;
+    background-color: rgb(240, 158, 36);
+    text-align: center;
+    font-weight: 700;
+    padding:  calc(var(--elem-size)*0.1);
+    font-size:  calc(var(--text-size)*0.9);
+    transition: 0.5s linear;
+    margin:auto;
+}
+.propertyBtn:hover{
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    color:rgb(240, 158, 36);
+    background-color: white;
+}
+
+.listButtons{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    text-align: center;
+    padding: auto;;
+}
+.prev-nextBtn{
+    border:none;;
+    color:black;
+    background-color: white;
+    text-align: center;
+    width:13%;
+    font-weight: 600;
+    padding: calc(var(--elem-size)*0.1);
+    font-size:calc(var(--text-size)*1.3);;
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    margin: calc(var(--elem-size)*0.15);;
+    transition: linear 0.5s;
+}
+.numberBtn{
+    border:none;;
+    color:black;
+    background-color: white;
+    text-align: center;
+    width:4%;
+    font-weight: 600;
+    font-size: calc(var(--text-size)*1.3);;
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    margin:calc(var(--elem-size)*0.15);;
+    transition: linear 0.5s;
+}
+.dotBtn{
+    border:none;;
+    color:black;
+    background-color: rgb(245, 243, 240);;
+    text-align: center;
+    width:4%;
+    font-weight: 600;
+    padding: calc(var(--elem-size)*0.1);
+    font-size:calc(var(--text-size)*1.3);;
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    margin:calc(var(--elem-size)*0.15);;
+    transition: linear 0.5s;
+}
+.listButtons button:hover{
+    background-color:rgb(240, 158, 36); ;
+    color:white;
+}
+.contactUsMain{
+    height:calc(var(--elem-size)*5);
+    background-image: url(/FoodImg/contactUs2.jpg);
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    text-align: center;
+}
+.contactUsMain h1{
+    color:white;
+    font-size: calc(var(--text-size)*3.5);;
+}
+.contactsUs-container{
+    width:100%;
+    height: calc(var(--elem-size)*3);
+    display: flex;
+    align-items: center;
+}
+.contact-box{
+    text-align: center;
+    width: inherit;
+}
+.contact-box i{
+    font-size: calc(var(--text-size)*2);
+}
+.contactUsIcon span{
+    width: calc(var(--elem-size)*0.8);
+    height: calc(var(--elem-size)*0.8);
+    line-height: calc(var(--elem-size));
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(240, 158, 36);
+}
+.contactUsIcon span:hover{
+   animation:contact-icon 4s ;
+}
+
+.contactUsIcon{
+    display: inline;
+    text-align: center;
+}
+.contact-text p{
+    font-size: calc(var(--text-size)*0.8);
+    font-weight: 500;
+    color: grey;
+    max-width: calc(var(--elem-size)*2.04);
+    margin:auto;
+    text-align: center;
+}
+.contact-text h2{
+    font-size:  calc(var(--text-size)*1.2);
+}
+.formField{
+    font-size: calc(var(--text-size)*1.5);
+    text-align:  center;
+}
+.contactForm-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width:100%;
+    height: calc(var(--elem-size)*6);
+}
+.contactForm{
+    width:50%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 7px rgba(231, 159, 59, 0.518);
+    height: 90%;
+}
+.contactForm-item{
+    display: flex;;
+    flex-flow:column;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left:10%;
+}
+.contactForm-item label{
+    padding-bottom: calc(var(--elem-size)*0.1);
+    padding-top: calc(var(--elem-size)*0.1);
+}
+.contactForm-item input{
+    height:calc(var(--elem-size)*0.5);
+    font-size: calc(var(--text-size));
+    width:80%;
+    border: 1px solid #ced4da;
+}
+.contactForm button{
+    border-radius: calc(var(--elem-size)*0.2);
+    border: none;
+    color: white;
+    background-color: rgb(240, 158, 36);
+    height:auto;
+    text-align: center;
+    font-weight: 700;
+    padding: calc(var(--elem-size)*0.1);
+    font-size: calc(var(--text-size)*0.9);
+    margin-top:calc(var(--elem-size)*0.2);
+    width:25%;
+    transition: 1s linear;
+}
+.contactForm button:hover{
+    box-shadow: 0px 1px 5px 3px rgba(228, 177, 10, 0.6);
+    color:rgb(240, 158, 36);
+    background-color: white;
 }
