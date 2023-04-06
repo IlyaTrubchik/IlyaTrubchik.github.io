@@ -98,6 +98,17 @@
     
     }
 }
+@-webkit-keyframes contact-icon{
+    from{
+        -webkit-transform:rotateY(0);
+    }
+    50%{
+        -webkit-transform:rotateY(-720deg);
+    }
+    to{
+        -webkit-transform:rotateY(0);
+    }
+}
 body{
     width: 100%;
     margin:0px;
