@@ -442,7 +442,7 @@ body{
 }
 .menuMain{
     height:calc(var(--elem-size)*5);
-    background-image: url(/FoodImg/contactUs2.jpg);
+    background-image: url(FoodImg/contactUs2.jpg);
     display: flex;
     flex-flow:column;
     justify-content: center;
@@ -642,7 +642,7 @@ body{
 }
 .contactUsMain{
     height:calc(var(--elem-size)*5);
-    background-image: url(/FoodImg/contactUs2.jpg);
+    background-image: url(FoodImg/contactUs2.jpg);
     display: flex;
     flex-flow:column;
     justify-content: center;
